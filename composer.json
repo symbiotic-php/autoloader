@@ -1,0 +1,16 @@
+{
+  "name": "symbiotic/autoloader",
+  "description": "Symbiotic PSR-4 Autoloader for specific directories.",
+  "version": "1.4.0",
+  "type": "library",
+  "keywords": [
+    "symbiotic autoloader",
+    "psr-4 autoloader",
+    "PSR-4"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Symbiotic\\Autoload\\": "src/Autoload/"
+    }
+  }
+}
